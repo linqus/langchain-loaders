@@ -1,0 +1,494 @@
+<html>
+
+  <head>
+    <title>
+      CSV Files
+    </title>
+  </head>
+
+  <body bgcolor="#EEEEEE" link="#CC0000" alink="#FF3300" vlink="#000055" >
+
+    <h1 align = "center">
+      CSV Files
+    </h1>
+
+    <hr>
+
+    <p>
+      <b>CSV</b> is a data directory which
+      contains examples of Comma Separated Value (CSV) files, 
+      a flat file format describing values in a table.
+    </p>
+
+    <p>
+      Each record consists of M values, separated by commas.  However, the last
+      value is not followed by a comma.
+    </p>
+
+    <p>
+      Double quotes are used as escape characters.  A string with a comma can
+      be delimited by double quotes so that that comma is not misinterpreted
+      as a field separator.
+    </p>
+
+    <p>
+      To de-escape a double quote, that is, to use it literally, use two
+      double quotes.
+    </p>
+
+    <p>
+      A final, unmatched, double quote on a line indicates that that line
+      is to be continued on the next line.
+    </p>
+
+    <p>
+      In some cases, a CSV file includes an initial line of headers.
+    </p>
+
+    <h3 align = "center">
+      Licensing:
+    </h3>
+
+    <p>
+      The computer code and data files described and made available on this web page
+      are distributed under
+      <a href = "../../txt/gnu_lgpl.txt">the GNU LGPL license.</a>
+    </p>
+
+    <h3 align = "center">
+      Sample Files:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "addresses.csv">addresses.csv</a>,
+          Postal addresses.
+          There is an initial header line.
+          There are 6 records.
+          There are 6 fields: First name, last name, street address, city, 
+          state, zip code.
+        </li>
+        <li>
+          <a href = "airtravel.csv">airtravel.csv</a>,
+          Monthly transatlantic airtravel, in thousands of passengers,
+          for 1958-1960.
+          There is an initial header line.
+          There are 12 records, "JAN" through "DEC".
+          There are 4 fields, "Month", "1958", "1959" and "1960".
+        </li>
+        <li>
+          <a href = "bankloan1.csv">bankloan1.csv</a>,
+          bank loan data #1, from Kelleher, MacNamee, D'Arcy.
+          There is an initial header line.
+          There are 10 records;
+          There are 5 fields: ID, Occupation, Age, Ratio, Outcome;
+        </li>
+        <li>
+          <a href = "bankloan2.csv">bankloan2.csv</a>,
+          bank loan data #2, from Kelleher, MacNamee, D'Arcy.
+          There is an initial header line.
+          There are 25 records;
+          There are 9 fields: ID, Amount, Salary, Ratio, Age, Occupation, Property, Type, Outcome;
+        </li>
+        <li>
+          <a href = "basketball.csv">basketball.csv</a>,
+          Basketball player data, from Kelleher, MacNamee, D'Arcy.
+          There is an initial header line.
+          There are 30 records;
+          There are 8 fields: ID, Position, Height, Weight, Sponsorship Earnings, Shoe Sponsor, Career Stage, Age;
+        </li>
+        <li>
+          <a href = "biostats.csv">biostats.csv</a>,
+          biometric statistics for a group of office workers.
+          There is an initial header line.
+          There are 18 records;
+          There are 5 fields: Name, Sex, Age, Height, Weight
+        </li>
+        <li>
+          <a href = "birthweight.csv">birthweight.csv</a>,
+          Normal or low birthweight;
+          There is an initial header line.
+          There are 42 records.
+          There are 17 fields: id, head circumference, length, weight, 
+          gestation in months, mother smokes, mother age, mother number of
+          cigarettes, mother height, mother prepregnancy weight, father age,
+          father education years, father number of cigarettes, father height,
+          low birthweith (0/1), mother 35 or older(0/1), 
+          lowbirthweight (Low/Normal)
+        </li>
+        <li>
+          <a href = "card.csv">card.csv</a>,
+          Collection of 50 playing cards;
+          There is an initial header line.
+          There are 50 records;
+          There are 4 fields: Index, Rank(1-13), Suit(1-4), Order(1-52);
+        </li>
+        <li>
+          <a href = "china.csv">china.csv</a>,
+          China data.
+          There is an initial header line.
+          There are 12 records;
+          There are 6 fields: country, year, pop, continent, lifeExp, gdpPercap
+        </li>
+        <li>
+          <a href = "chobe_river_levels.csv">chobe_river_levels.csv</a>,
+          Chobe river levels.
+          There is an initial header line.
+          There are 14975 records.
+          Each record contains the Station, Station Name, Data Type, Year,
+          Month, Day, Date, Value.
+        </li>
+        <li>
+          <a href = "cities.csv">cities.csv</a>,
+          city locations:
+          There is an initial header line.
+          There are 128 records.
+          There are 10 fields: "LatD", "LatM", "LatS", "NS", "LonD", "LonM", "LonS", "EW", "City", "State"
+        </li>
+        <li>
+          <a href = "crash_catalonia.csv">crash_catalonia.csv</a>,
+          number of car crashes in Catalonia from 2000 to 2011, by day of week.
+          There is an initial header line.
+          There are 7 records.
+          There are 2 fields.
+        </li>
+        <li>
+          <a href = "crash_computer.csv">crash_computer.csv</a>,
+          computer crash reports.
+          There is an initial header line.
+          There are 20 records.
+          There are 5 fields: index(1-20), OS(1=Linux,2=OSX,3=Windows),
+          LANG (1=C,2=Python), Browser(1=Chrome,2=Explorer,3=Firefox,4=Safari),
+          Crash (0=No,1=Yes).
+        </li>
+        <li>
+          <a href = "deniro.csv">deniro.csv</a>,
+          Rotten Tomato ratings of movies with Robert De Niro.
+          There is an initial header line.
+          There are 87 records.  
+          There are 3 fields: Year, Rating, Title.
+        </li>
+        <li>
+          <a href = "example.csv">example.csv</a>,
+          an example file.
+          There is an initial header line.
+          There is 1 record.
+          There are 78 values per record.
+        </li>
+        <li>
+          <a href = "ford_escort.csv">ford_escort.csv</a>,
+          used Ford Escorts for sale.
+          There is an initial header line.
+          There are 23 records.
+          There are 3 fields: year, mileage and price.
+        </li>
+        <li>
+          <a href = "faithful.csv">faithful.csv</a>,
+          Old Faithful geyser.
+          There is an initial header line.
+          There are 272 records;
+          There are three fields: index, time between eruptions, and length of 
+          eruption.
+        </li>
+        <li>
+          <a href = "freshman_kgs.csv">freshman_kgs.csv</a>,
+          "Freshman 15" data (metric).
+          There is an initial header line.
+          There are 67 records.
+          There are 5 fields: Sex, September weight (kgs), April weight (kgs), 
+          September BMI, April BMI,
+        </li>
+        <li>
+          <a href = "freshman_lbs.csv">freshman_lbs.csv</a>,
+          "Freshman 15" data (English).
+          There is an initial header line.
+          There are 67 records.
+          There are 5 fields: Sex, September weight (lbs), April weight (lbs), 
+          September BMI, April BMI.
+        </li>
+        <li>
+          <a href = "glass.csv">glass.csv</a>,
+          Data about chemical composition of samples of glass.
+          There is an initial header line.
+          214 records are stored;
+          Each record includes 11 fields: "Index","Refractive Index","Na","Mg",
+          "Al","Si","K","Ca","Ba","Fe","Class";
+          Class:1=building float glass,2=building nonfloat glass,
+          3=vehicle Float glass, 4=vehicle nonfloat glass, 5=containers,
+          6=tableware, 7=headlamps.
+        </li>
+        <li>
+          <a href = "grades.csv">grades.csv</a>,
+          tests and final grade for a class;
+          There is an initial header line.
+          There are 16 records;
+          there are 9 fields: First name, Last Name, SSN, Test1, Test2, Test3, Test4, Final, Grade.
+        </li>
+        <li>
+          <a href = "homes.csv">homes.csv</a>,
+          Home sale statistics.
+          There is an initial header line.
+          There are 50 records.
+          There are 9 fields: selling price, asking price, living space,
+          rooms, bedrooms, bathrooms, age, acreage, taxes.
+        </li>
+        <li>
+          <a href = "hooke.csv">hooke.csv</a>,
+          Hooke's Law demo.
+          A spring experiment is carried out twice.  Spring 1 and spring 2
+          are loaded with 0, 1, 2, ..., 9 equal weights and their lengths
+          are measured.
+          There is an initial header line.
+          There are 10 records.
+          Each record contains the index, weight, spring 1 length and
+          spring 2 length.
+        </li>
+        <li>
+          <a href = "hurricanes.csv">hurricanes.csv</a>,
+          hurricane and tropical storm counts for 2005-2015.
+          There is an initial header line.
+          There are 8 records, for months "May" through "Dec".
+          Each record includes 13 values: month, historical average, counts for
+          2005 through 2015.  
+        </li>
+        <li>
+          <a href = "hw_200.csv">hw_200.csv</a>,
+          height and weight;
+          There is an initial header line.
+          There are 200 records.
+          Each record includes 3 values: index, height (inches), weight (pounds).
+        </li>
+        <li>
+          <a href = "hw_25000.csv">hw_25000.csv</a>,
+          height and weight.
+          There is an initial header line.
+          There are 25000 records.
+          Each record includes 3 values: index, height (inches), weight (pounds).
+        </li>
+        <li>
+          <a href = "hyperlink.csv">hyperlink.csv</a>,
+          Hyperlink directed adjacency matrix for 16 web pages.
+          There are 16 records: 
+          There are 16 fields: 0 or 1 if page i links to page j.
+        </li>
+        <li>
+          <a href = "hyperlink_map.png">hyperlink_map.png</a>,
+          a map of the hyperlinks.
+        </li>
+        <li>
+          <a href = "insurance.csv">insurance.csv</a>,
+          Medical insurance costs;
+          There is an initial header line.
+          There are 1338 records: 
+          There are 7 fields: age, sex, bmi, children, smoker, region, charges
+        </li>
+        <li>
+          <a href = "lead_shot.csv">lead_shot.csv</a>,
+          For each grade of lead shot, a record lists the grade name,
+          the weight in ounces, weight in grams, diameter in inches,
+          diameter in millimeters, and the number of pellets per ounce.
+          There is an initial header line.
+          There are 25 records.
+          Tere are 6 fields: "Grade",   "Ounce", "Gram", "Inch",  "mm", "PPO"
+        </li>
+        <li>
+          <a href = "letter_frequency.csv">letter_frequency.csv</a>,
+          In a large text, the frequency and percentage frequency of each of 
+          the 26 letters of the alphabet was determined.
+          There is an initial header line.
+          There are 26 records.
+          There are 3 fields.
+        </li>
+        <li>
+          <a href = "loan.csv">loan.csv</a>,
+          Data for a fraud-detection system.
+          There are 20 records.
+          There are 5 fields: ID(1-20), Credit History ("none", "paid", "current",
+          "arrears"), Guarantor ("none", "guarantor", "coapplicant" ),
+          Accommodation ("own", "rent", "free"), Fraud ("true", "false");
+        </li>
+        <li>
+          <a href = "mlb_players.csv">mlb_players.csv</a>,
+          Major League Baseball Players: 
+          There is an initial header line.
+          There are 1034 records.
+          There are 6 fields: Name, Team, Position, height (inches),
+          weight (pounds), age (years).
+        </li>
+        <li>
+          <a href = "mlb_teams_2012.csv">mlb_teams_2012.csv</a>,
+          Major League Baseball 2012 Season.
+          There is an initial header line.
+          There are 30 records;
+          There are 3 fields: Team, Payroll(millions), Wins.
+        </li>
+        <li>
+          <a href = "news_decline.csv">news_decline.csv</a>,
+          average nightly viewship for 6 TV news magazines for 2009-2011.
+          There is an initial header line.
+          Six records are stored, for "60 Minutes", "48 Hours Mystery",
+          "20/20", "Nightline", "Dateline Friday", and "Dateline Sunday".
+          Each record includes 4 fields: show name, 2009, 2010, 2011.
+        </li>
+        <li>
+          <a href = "nile.csv">nile.csv</a>,
+          Nile flood data;
+          There is an initial header line.
+          There are 570 records;
+          There are 2 fields: year index, maximum height of Nile flood.
+        </li>
+        <li>
+          <a href = "oscar_age_female.csv">oscar_age_female.csv</a>,
+          age of female Oscar winners;
+          There is an initial header line.
+          There are 89 records: 
+          There are 4 fields: index, age, name, movie.
+        </li>
+        <li>
+          <a href = "oscar_age_male.csv">oscar_age_male.csv</a>,
+          age of male Oscar winners;
+          There is an initial header line.
+          89 records: 
+          There are 4 fields: index, age, name, movie.
+        </li>
+        <li>
+          <a href = "pollution.csv">pollution.csv</a>,
+          Various measurements related to air pollution in US cities.
+          There is an initial header line.
+          There are 41 records.
+          There are 8 fields: "City name", "SO2 mg/cm", "Average Temperature F",
+          "Manufacturing Plants", "1970 Population", "Average Wind Speed mph", 
+          "Average Precipitation inches", "Annual Precipitation days"
+        </li>
+        <li>
+          <a href = "rings.csv">rings.csv</a>,
+          artificial data, three concentric rings,
+          ring 1: 1<R<3; ring 2: 6<R<7; ring 3: 9<R<10;
+          There is an initial header line.
+          200 records are stored;
+          Each record includes 3 fields: "X", "Y", "ID"
+        </li>
+        <li>
+          <a href = "rings.png">rings.png</a>,
+          an image of the ring data.
+        </li>
+        <li>
+          <a href = "risk.csv">risk.csv</a>,
+          Regional adjacency matrix for the game of Risk.
+          There are 42 records: 
+          There are 42 fields of 0 or 1: adjacency to region 1, region 2, ..., 42.
+        </li>
+        <li>
+          <a href = "risk_map.png">risk_map.png</a>,
+          A map that displays the names and numbers of the 42 Risk regions.
+        </li>
+        <li>
+          <a href = "risk_names.csv">risk_names.csv</a>,
+          Region names for the game of Risk.
+          There is one initial record.
+          There are 42 records: 
+          There is 2 fields: index, region name
+        </li>
+        <li>
+          <a href = "snakes_count_10.csv">snakes_count_10.csv</a>,
+          game length for one-player version of Snakes and Ladders,
+          There is an initial header line.
+          There are 10 records;
+          There are 2 fields: Game Index, Game Length.
+        </li>
+        <li>
+          <a href = "snakes_count_100.csv">snakes_count_100.csv</a>,
+          game length for one-player version of Snakes and Ladders,
+          There is an initial header line.
+          There are 100 records;
+          There are 2 fields: Game Index, Game Length.
+        </li>
+        <li>
+          <a href = "snakes_count_1000.csv">snakes_count_1000.csv</a>,
+          game length for one-player version of Snakes and Ladders,
+          There is an initial header line.
+          There are 1000 records;
+          There are 2 fields: Game Index, Game Length.
+        </li>
+        <li>
+          <a href = "snakes_count_10000.csv">snakes_count_10000.csv</a>,
+          game length for one-player version of Snakes and Ladders,
+          There is an initial header line.
+          There are 10000 records;
+          There are 2 fields: Game Index, Game Length.
+        </li>
+        <li>
+          <a href = "storm_data.csv">storm_data.csv</a>,
+          Records of the analysis of river water, including levels of 
+          fecal coliform, e coli, enterococci, and salmonella.
+          There is an initial header line.
+          There are 73 records;
+          Each record includes ID, Cond, Site, Date, Temp, TOTAL FC, TOTAL EC,
+          TOTAL ENT, TOTAL CP, TOTAL SALM, TOTAL FPGE, TOTAL SOMPGE, 
+          TOTAL PART, TOTAL TOC.
+        </li>
+        <li>
+          <a href = "tally_cab.csv">tally_cab.csv</a>,
+          Tallahassee Cab Fares,
+          There is an initial header line.
+          There are 8 records;
+          There are 2 fields: Distance(miles), Fare($).
+        </li>
+        <li>
+          <a href = "tax.csv">tax.csv</a>,
+          Tax information.
+          There is an initial header line.
+          There are 15 records: 
+          There are 5 fields: Index(1-15), Refund("true", "false"), 
+          Status ("single", "married", "divorced", Income (in thousands), 
+          Cheating ("true", "false").
+        </li>
+        <li>
+          <a href = "taxables.csv">taxables.csv</a>,
+          Taxable items,
+          There is an initial header line.
+          There are 10 records: 
+          There are 5 fields: index, item name, price, tax, price plus tax.
+        </li>
+        <li>
+          <a href = "trees.csv">trees.csv</a>,
+          Tree measurements,
+          There is an initial header line.
+          There are 31 records: 
+          There are 4 fields: index, circumference (in), height (ft), volume (ft^3).
+        </li>
+        <li>
+          <a href = "turtles.csv">turtles.csv</a>,
+          Turtle measurements,
+          There is an initial header line.
+          There are 54 records: 
+          There are 6 fields: index, collection, sex, weight, width, height;
+        </li>
+        <li>
+          <a href = "zillow.csv">zillow.csv</a>,
+          Tallahassee Housing Prices as reported by Zillow,
+          There is an initial header line.
+          There are 20 records: 
+          There are 7 fields: Index, Square footage, beds, baths, zip code, 
+          year, list price.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      You can go up one level to
+      <a href = "../datasets.html">the DATASETS page.</a>
+    </p>
+
+    <hr>
+
+    <i>
+      Last revised on 12 October 2018.
+    </i>
+
+    <!-- John Burkardt -->
+
+  </body>
+
+</html>
